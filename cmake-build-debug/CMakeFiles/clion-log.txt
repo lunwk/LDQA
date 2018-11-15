@@ -1,0 +1,9 @@
+/snap/clion/49/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/binbin/disk/project-code/lane_quality_assessment/ICNet-master/laneAssess
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   regex
+--   system
+--   filesystem
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/binbin/disk/project-code/lane_quality_assessment/ICNet-master/laneAssess/cmake-build-debug
