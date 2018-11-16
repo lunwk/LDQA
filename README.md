@@ -1,4 +1,4 @@
-Lane Detection and Quality Assessment
+Camera-LIDAR Bimodal Lane Detection, Recognition and Tracking
 =======================
 This code is based on the paper by Binbin Li, Dezhen Song, Haifeng Li,  Adam Pike, and Paul Carlson,  "Lane Marking Quality Assessment for Autonomous Driving", IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, October, 1-5, 2018. 
 
