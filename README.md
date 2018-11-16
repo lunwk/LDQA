@@ -1,5 +1,5 @@
-Camera-LIDAR Bimodal Lane Detection, Recognition and Tracking
-=======================
+## Camera-LIDAR Bimodal Lane Detection, Recognition and Tracking
+
 This code is based on the paper by Binbin Li, Dezhen Song, Haifeng Li,  Adam Pike, and Paul Carlson,  "Lane Marking Quality Assessment for Autonomous Driving", IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain, October, 1-5, 2018. 
 
 It has been tested on Ubuntu 16.04LTS and should work on 16.04 or newer versions.
