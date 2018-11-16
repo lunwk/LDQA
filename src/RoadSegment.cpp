@@ -2,7 +2,7 @@
 
 namespace LD {
 
-    RoadSegment::RoadSegment(string _xmlFile) : Solver(_xmlFile), m_DBScan(_xmlFile), m_cropSizeH(1025), m_cropSizeW(2049),
+    RoadSegment::RoadSegment(string _xmlFile) : Solver(_xmlFile), m_cropSizeH(1025), m_cropSizeW(2049),
                                             m_meanR(123.68),
                                             m_meanG(116.779), m_meanB(103.939),
                                             m_deployFile("./prototxt/icnet_cityscapes.prototxt"),

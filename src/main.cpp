@@ -7,7 +7,6 @@
 #include"LMsintersection.h"
 #include"../3rdParty/TLinkage/TLinkage.h"
 #include"../3rdParty/TLinkage/BSplineTLinkage.h"
-#include"../3rdParty/DBScan/DBScan.h"
 #include "../3rdParty/TLinkage/Line3DTLinkage.h"
 #include<pugixml.hpp>
 #include <boost/algorithm/string/predicate.hpp>
@@ -35,8 +34,6 @@ int main(int argc, char *argv[]) {
         solverPtr = std::make_unique<LMsintersection>(argv[1]);
     else if (boost::iequals(solver, "BSplineTLinkage"))
         solverPtr = std::make_unique<BSplineTLinkage>(argv[1]);
-    else if (boost::iequals(solver, "Line3DTLinkage"))
-        solverPtr = std::make_unique<Line3DTLinkage>(argv[1]);
     else if (boost::iequals(solver, "LaneDetector"))
         solverPtr = std::make_unique<LaneDetector>(argv[1]);
     else

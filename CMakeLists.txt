@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.5.1)
 project(Evalutionproject)
 
-#set(OpenCV_DIR "/usr/local/opencv3/share/OpenCV")
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 2.4.9.1 REQUIRED)
 find_package(Boost COMPONENTS regex system filesystem REQUIRED)
 find_package(Eigen3 REQUIRED)
 
@@ -111,7 +110,6 @@ add_executable(
         3rdParty/TLinkage/MaxDiffOR.cpp
         3rdParty/TLinkage/UniformSampler.cpp
         3rdParty/TLinkage/DistBasedSampler.cpp
-        3rdParty/DBScan/DBScan.cpp
         ${ALGLIB_ROOT}/src/alglibinternal.cpp
         ${ALGLIB_ROOT}/src/alglibmisc.cpp
         ${ALGLIB_ROOT}/src/ap.cpp

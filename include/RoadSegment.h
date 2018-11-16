@@ -9,17 +9,17 @@
 #include<iostream>
 #include<unordered_set>
 #include<caffe/caffe.hpp>
+#include "eigen3/Eigen/Core"
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>
 #include <omp.h>
 #include "Solver.h"
-#include "../3rdParty/DBScan/DBScan.h"
 #include <opencv2/core/eigen.hpp>
-#include "eigen3/Eigen/Core"
+
 
 namespace LD {
-
+    using namespace Eigen;
     using namespace caffe;
     using std::string;
     using std::vector;
@@ -136,7 +136,6 @@ namespace LD {
           */
         virtual void operator()(const cv::Mat &_inputImg, cv::Mat &_segImg);
 
-        DBScan m_DBScan;
     };
 
 }
