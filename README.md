@@ -4,8 +4,8 @@ This code is based on the paper by Binbin Li, Dezhen Song, Haifeng Li,  Adam Pik
 
 It has been tested on Ubuntu 16.04LTS and should work on 16.04 or newer versions.
 
-Dependencies
-------------
+## Dependencies
+
 Below is a list of all dependencies required, and links to relevant information such as downloads.  There are also instructions for installing the required packages on a Ubuntu system, specifically, but which should also work on most Debian-based systems.
 * Install prerequisites/dependencies
     
@@ -79,13 +79,13 @@ This project uses CMake (http://www.cmake.org), a cross-platform build system.
 * cmake ..
 * make
 
-To run the code
----------------
+## To run the code
+
 1. Under the ${laneAssess_root}, run command ```./lanevaluate Parameters.xml```, where ```Parameters.xml``` is the configuration file.
 2. Change the setting in ```Parameters.xml``` to visualize the result. 
 
-Contact
------------------
+## Contact
+
 1. Binbin Li <binbinli@tamu.edu>
 2. Aaron Kingery <aaronmkingery@tamu.edu>
 3. Aaron Angert <adangert@tamu.edu>
